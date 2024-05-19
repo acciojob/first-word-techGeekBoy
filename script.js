@@ -1,14 +1,11 @@
-function firstWord(str) {
-	if(!s){
-		return '';
+function firstword(str){
+	if(!str){
+		return "";
 	}
-	let initialword=s.split(" ");
-	let firstword=initialword[0];
+	let str = str.trim();
+	let initiaword = str.split();
+	let firstword = initialword[0];
 	return firstword;
-	
- 
-
- 
 }
 
 // Do not change the code below
